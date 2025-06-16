@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Brianca Pierre</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="contactform"
+    style="max-width: 800px; margin: 40px auto; font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+  </section>
+
+  <h2 style="text-align: center; font-weight: bold; margin-bottom: 20px;">Contact</h2>
+
+  <p style="text-align: center; font-size: 16px;">
+    Interested in working together? For job opportunities, collaborations, or if you have a project in mind whether
+    it's writing, website creation, or content development.Feel free to reach out. I’d love to bring your ideas to
+    life with clarity and creativity.
+  </p>
+
+  <div style="margin-top: 30px; text-align: center; font-size: 16px;">
+    <p><strong>Name:</strong> Brianca Pierre</p>
+    <p><strong>Phone:</strong> <a href="tel:+15167829502" style="color: #007BFF; text-decoration: none;">(516)
+        782-9502</a></p>
+    <p><strong>Email:</strong> <a href="mailto:pierreloveliettebrianca@gmail.com"
+        style="color: #007BFF; text-decoration: none;">pierreloveliettebrianca@gmail.com</a></p>
+    <p><strong>Location:</strong> Brooklyn, New York 11213</p>
+  </div>
+
+  <form id="contactForm" style="max-width: 600px; margin: 40px auto 0 auto;">
+    <label for="name">Your Name:</label><br />
+    <input type="text" id="name" name="name" required style="width: 100%; padding: 8px; margin-bottom: 15px;" />
+
+    <label for="phone">Phone Number:</label><br />
+    <input type="tel" id="phone" name="phone" required style="width: 100%; padding: 8px; margin-bottom: 15px;" />
+
+    <label for="email">Your Email:</label><br />
+    <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; margin-bottom: 15px;" />
+
+    <label for="message">Your Message:</label><br />
+    <textarea id="message" name="message" rows="5" required
+      style="width: 100%; padding: 8px; margin-bottom: 15px;"></textarea>
+
+    <button type="submit"
+      style="padding: 10px 20px; background-color: #007BFF; color: white; border: none; cursor: pointer;">
+      Send
+    </button>
+  </form>
+
+  <div id="confirmation" style="margin-top: 20px; color: green; text-align:center;"></div>
+
+  </section>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
